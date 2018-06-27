@@ -161,7 +161,7 @@ ul.list-style-none {
 #text-page h1,
 #text-page h2,
 #text-page h3 {
-  font-weight: 700;
+  font-weight: 300;
 }
 #error-page {
   text-align: center;
@@ -285,7 +285,7 @@ ul.list-style-none {
   margin-right: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.10em;
 }
 @media (max-width: 767px) {
@@ -514,8 +514,8 @@ body.boxed .navbar-affixed-top.affix {
 }
 /* buttons  */
 .btn {
-  font-weight: 700;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
@@ -740,7 +740,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 #intro .item {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
   height: 100%;
 }
 #intro .item h1 {
@@ -826,10 +826,10 @@ fieldset[disabled] .btn-template-primary.active {
 .jumbotron p {
   margin-bottom: 20px;
   font-size: 21px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .jumbotron p.text-uppercase {
-  font-weight: 700;
+  font-weight: 300;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -934,11 +934,11 @@ fieldset[disabled] .btn-template-primary.active {
 .panel.sidebar-menu ul.nav.category-menu {
   margin-bottom: 20px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.08em;
 }
 .panel.sidebar-menu ul.nav.category-menu li a {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
 }
 .panel.sidebar-menu ul.nav ul {
   list-style: none;
@@ -949,7 +949,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .panel.sidebar-menu ul.nav ul li a {
   position: relative;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Times New Roman", Times, serif; */
   font-weight: normal;
   text-transform: none !important;
   display: block;
@@ -979,7 +979,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 5px 5px 5px 0;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 12px;
 }
 .panel.sidebar-menu ul.tag-cloud li a:hover {
@@ -1059,7 +1059,7 @@ fieldset[disabled] .btn-template-primary.active {
   position: absolute;
   top: 50px;
   padding-left: 51px;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.08em;
 }
 .ribbon .ribbon-background {
@@ -1074,7 +1074,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 30px 10px 10px -71px;
   color: #fff;
   background-color: #38a7bb;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
 }
 .ribbon .theribbon:before,
 .ribbon .theribbon:after {
@@ -1190,7 +1190,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #fff;
 }
 .home-carousel h1 {
-  font-weight: 700;
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 46px;
   letter-spacing: 0.08em;
@@ -1201,7 +1201,7 @@ fieldset[disabled] .btn-template-primary.active {
   }
 }
 .home-carousel h2 {
-  font-weight: 700;
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 40px;
   letter-spacing: 0.08em;
@@ -1209,7 +1209,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel ul,
 .home-carousel p {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 300;
   padding: 0;
   text-transform: uppercase;
   letter-spacing: 0.10em;
@@ -1446,7 +1446,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
-  font-weight: 800;
+  font-weight: 300;
   letter-spacing: 0.08em;
 }
 .box-simple h3 a {
@@ -1635,7 +1635,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
-  font-weight: 800;
+  font-weight: 300;
   letter-spacing: 0.08em;
 }
 .box-image-text .content p {
@@ -1737,7 +1737,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #333333;
   text-transform: uppercase;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.08em;
 }
 @media (max-width: 991px) {
@@ -1912,7 +1912,7 @@ fieldset[disabled] .btn-template-primary.active {
   line-height: 120px;
   height: 100px;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
 }
 .packages .package .price h4 {
   display: inline;
@@ -2000,7 +2000,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #blog-listing-big .post .author-category a,
 #blog-homepage .post .author-category a {
-  font-weight: 500;
+  font-weight: 300;
 }
 #blog-listing-big .post .date-comments a,
 #blog-homepage .post .date-comments a {
@@ -2070,7 +2070,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 #blog-listing-medium .post .author-category a {
-  font-weight: 500;
+  font-weight: 300;
 }
 #blog-listing-medium .post .date-comments {
   float: right;
@@ -2147,7 +2147,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 .box-image-text.blog .author-category a {
-  font-weight: 500;
+  font-weight: 300;
 }
 .box-image-text.blog .intro {
   text-align: left;
@@ -2192,7 +2192,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 #blog-post .comment .reply {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
 }
 #blog-post .comment.last {
   margin-bottom: 0;
@@ -2260,7 +2260,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .product .text h3 {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 300;
   height: 39.6px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2329,7 +2329,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: center;
 }
 #productMain .sizes h3 {
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -2344,7 +2344,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #555555;
   text-align: center;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
 }
 #productMain .sizes a.active,
 #productMain .sizes a:hover {
@@ -2437,7 +2437,7 @@ fieldset[disabled] .btn-template-primary.active {
 #order-summary table tr.total th {
   font-size: 18px;
   color: #555555;
-  font-weight: 700;
+  font-weight: 300;
 }
 #checkout .table tbody tr td,
 #basket .table tbody tr td,
@@ -2519,7 +2519,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #footer h4 {
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -2650,7 +2650,7 @@ fieldset[disabled] .btn-template-primary.active {
 /* Original Boostrap template overwrite */
 /* breadcrumbs */
 .breadcrumb {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
   text-transform: uppercase;
   background-color: none;
   letter-spacing: 0.08em;
@@ -3151,8 +3151,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
+  font-size: 15px;
   line-height: 1.42857143;
   color: #555555;
 }
@@ -3229,7 +3229,7 @@ hr {
 }
 /* labels */
 .label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -3259,7 +3259,7 @@ label {
   padding-top: 20px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
 }
 .pager li {
   display: inline;
@@ -3287,7 +3287,7 @@ label {
 /* pagination */
 .pagination {
   margin: 20px 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
   border-radius: 0;
 }
 .pagination > li > a,
@@ -3362,8 +3362,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 900;
+  font-family: "HelveticaNeueETW01-45Lt", Arial, sans-serif; /* "Roboto", Helvetica, Arial, sans-serif; */
+  font-weight: 300;
   line-height: 1.1;
   color: #333333;
 }
