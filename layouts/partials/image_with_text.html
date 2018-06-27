@@ -7,8 +7,8 @@
 	     <div class="row">
 		{{ if $element.image_on_left }}
 		<div class="col-md-6">
-                    <div class="box-simple">
-			<img height="400px" src="{{ $element.imgsrc }}"/>
+                    <div class="image-with-text">
+			<img src="{{ $element.imgsrc }}" />
                     </div>
                 </div>
 		<div class="col-md-6">
@@ -20,8 +20,8 @@
                         <p>{{ $element.description | markdownify }}</p>
                 </div>
 		<div class="col-md-6">
-                    <div class="box-simple">
-			<img height="400px" src="{{ $element.imgsrc }}"/>
+                    <div class="box-image image-with-text">
+			<img src="{{ $element.imgsrc }}"/>
                     </div>
 
 		</div>
