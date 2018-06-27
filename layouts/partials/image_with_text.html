@@ -1,0 +1,37 @@
+{{ if isset .Site.Params "image_with_text" }}
+{{ if .Site.Params.image_with_text.enable }}
+{{ if gt (len .Site.Data.image_with_text) 0 }}
+<section class="bar background-white">
+    <div class="container">
+        {{ range $index, $element := sort .Site.Data.image_with_text "weight" }}
+	     <div class="row">
+		{{ if $element.image_on_left }}
+		<div class="col-md-6">
+                    <div class="box-simple">
+			<img height="400px" src="{{ $element.imgsrc }}"/>
+                    </div>
+                </div>
+		<div class="col-md-6">
+                        <p>{{ $element.description | markdownify }}</p>
+
+		</div>
+		{{ else }}
+		<div class="col-md-6">
+                        <p>{{ $element.description | markdownify }}</p>
+                </div>
+		<div class="col-md-6">
+                    <div class="box-simple">
+			<img height="400px" src="{{ $element.imgsrc }}"/>
+                    </div>
+
+		</div>
+	
+
+		{{ end }}
+	     </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
