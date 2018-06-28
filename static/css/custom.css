@@ -21,3 +21,14 @@
   float: right;
 }
 
+.image-with-text > p {
+  font-size: 18px;
+}
+
+.color-light-gray {
+  color: #eeeeee;
+}
+
+.color-dark-gray {
+  color: #999999;
+}
