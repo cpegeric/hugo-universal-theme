@@ -1,0 +1,14 @@
+{{ if isset .Site.Params "headimage" }}
+{{ if .Site.Params.headimage.enable }}
+<section>
+    <div class="home-headimage">
+	<img class="img-responsive" src="{{ .Site.Params.headimage.imgsrc }}">
+         <div class="dark-mask"></div> 
+        <div class="overlay-text">
+		<center><h1>{{ .Site.Params.headimage.title }}</h1>
+			<p> {{ .Site.Params.headimage.description }} </p>
+		</center></div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
