@@ -8,3 +8,16 @@
 .box-simple {
   min-height: 230px;
 }
+
+.image-with-text {
+  display: block;
+}
+
+.image-with-text > img {
+  max-width: 100%;
+}
+
+.image-right {
+  float: right;
+}
+
