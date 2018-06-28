@@ -27,7 +27,6 @@
 
 .home-headimage {
   position: relative;
-#  background: url('../img/photogrid.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -54,11 +53,10 @@
   color: white;
 }
 
-.home-headimage h1 {
+.home-headimage h2 {
   color: white;
 }
 
 .home-headimage p {
   color: white;
-  font-size: 150%
 }
