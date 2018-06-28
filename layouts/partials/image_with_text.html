@@ -5,7 +5,7 @@
     <div class="container">
         {{ range $index, $element := sort .Site.Data.image_with_text "weight" }}
 	     <div class="row clearfix">
-		<div class="col-md-6  {{ if ! $element.image_on_left }} image-right {{ end }}">
+		<div class="col-md-6  {{ if eq $element.image_on_left false }} image-right {{ end }}">
                     <div class="image-with-text">
 			<img src="{{ $element.imgsrc }}" class="img-responsive"/>
                     </div>
