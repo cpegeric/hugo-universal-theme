@@ -4,9 +4,8 @@
 <section class="bar background-white">
     <div class="container">
         {{ range $index, $element := sort .Site.Data.image_with_text "weight" }}
-	     <div class="row">
-		{{ if $element.image_on_left }}
-		<div class="col-md-6">
+	     <div class="row clearfix">
+		<div class="col-md-6  {{ if ! $element.image_on_left }} image-right {{ end }}">
                     <div class="image-with-text">
 			<img src="{{ $element.imgsrc }}" class="img-responsive"/>
                     </div>
@@ -19,23 +18,6 @@
 			</p>
 
 		</div>
-		{{ else }}
-		<div class="col-md-6">
-			<h3>{{ $element.name | markdownify }} </h3>
-                        <p>{{ $element.description | markdownify }}</p>
-			<p class="read-more">
-                    		<a href="{{ $element.link_url }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-			</p>
-                </div>
-		<div class="col-md-6">
-                    <div class="box-image image-with-text">
-			<img src="{{ $element.imgsrc }}" class="img-responsive"/>
-                    </div>
-
-		</div>
-	
-
-		{{ end }}
 	     </div>
         {{ end }}
     </div>
