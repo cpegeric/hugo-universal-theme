@@ -18,8 +18,10 @@
 }
 
 .image-with-text-p-font {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
-  color: #999999;
+  color: #333;
+  outline: 0;
+  line-height: 1.5;
 }
 
