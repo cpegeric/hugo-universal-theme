@@ -17,18 +17,9 @@
   max-width: 100%;
 }
 
-.image-right {
-  float: right;
-}
-
-.image-with-text > p {
+.image-with-text-p-font {
   font-size: 18px;
-}
-
-.color-light-gray {
-  color: #eeeeee;
-}
-
-.color-dark-gray {
+  font-weight: 300;
   color: #999999;
 }
+
