@@ -1164,8 +1164,8 @@ fieldset[disabled] .btn-template-primary.active {
   filter: alpha(opacity=30);
 }
 .home-carousel .owl-carousel {
-  #padding-top: 60px;
-  #padding-bottom: 20px;
+#  padding-top: 60px;
+#  padding-bottom: 20px;
 }
 .home-carousel .owl-theme .owl-controls .owl-page span {
   background: #666;
@@ -2608,7 +2608,7 @@ fieldset[disabled] .btn-template-primary.active {
 #copyright {
   background: #333;
   color: #ccc;
-  padding: 50px 0;
+  padding: 10px 0;
   font-size: 12px;
   line-height: 28px;
 }
