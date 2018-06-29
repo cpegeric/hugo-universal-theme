@@ -9,6 +9,10 @@
   min-height: 230px;
 }
 
+.bar.home-image-with-text {
+  padding: 60px 0 0 0;
+}
+
 .image-with-text {
   display: block;
   margin-bottom: 1em;
