@@ -1,4 +1,4 @@
-<div id="heading-breadcrumbs">
+<div id="heading-breadcrumbs" {{ if isset .Params "banner"  }} style="background: url('{{ .Params.banner }}') center center no-repeat" {{ end }} >
     <div class="container">
         <div class="row">
             <div class="col-md-12">

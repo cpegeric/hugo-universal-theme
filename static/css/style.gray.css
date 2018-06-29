@@ -1743,6 +1743,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 0.08em;
+  text-align: center;
 }
 @media (max-width: 991px) {
   #heading-breadcrumbs h1 {
