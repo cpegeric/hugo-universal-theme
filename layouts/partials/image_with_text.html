@@ -1,7 +1,7 @@
 {{ if isset .Site.Params "image_with_text" }}
 {{ if .Site.Params.image_with_text.enable }}
 {{ if gt (len .Site.Data.image_with_text) 0 }}
-<section class="bar background-white">
+<section class="bar background-white home-image-with-text">
     <div class="container">
         {{ range $index, $element := sort .Site.Data.image_with_text "weight" }}
 	     <div class="row clearfix mb-small">
