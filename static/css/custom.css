@@ -89,3 +89,7 @@
   color: white;
   font-weight: 300;
 }
+
+a i.fab, button i.fab {
+    margin: 0 5px;
+}
